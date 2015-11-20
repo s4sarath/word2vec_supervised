@@ -27,6 +27,7 @@
 
 
 5. Sample usage and necessary parameters can be found in sample_supervise.py
+6. After training load the model and see the predicted labels by function mentioned in check_predictions.py
 
 
 
