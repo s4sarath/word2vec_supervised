@@ -1,7 +1,16 @@
-# word2vec_supervised
-A supervised approach for word2vec
+A SuperVised Extension of Word2Vec Algorithm
 
-Added modified cython code "word2vec_inner_supervised.pyx" inside gensim.0.12 .
-Normal python setup.py install works fine in Ubuntu 14.04
-Modified certain scipy libraries to support newer version of scipy
-Make Sure you have BLAS installed .
+-----------------------------------------------------
+
+
+a.) Implemented on top of gensim 0.12
+
+b.) Supports Cythonic Version 
+
+c.) Word2Vec_Supervised will give word2vec model + categories
+
+d.) The input expects an extra parameter called label_dict .
+
+e.) More details can be found on test_word2vec_supervised.py
+
+f.) To Install , extract and run ( python setup.py install ).
